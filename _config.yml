@@ -1,1 +1,47 @@
 theme: jekyll-theme-minimal
+# Site settings
+title: You Blog    				  	#你博客的标题
+SEOTitle: sotowang的博客 | You Blog    	 #显示在浏览器上搜索的时候显示的标题
+header-img: img/bg.jpg  	#显示在首页的背景图片
+email: sotowang@qq.com	
+description: "You Blog"  			 #网站介绍
+keyword: "sotowang blog" #关键词
+url: "https://sotowang.github.io"          # 这个就是填写你的博客地址
+baseurl: ""      # 这个我们不用填写
+
+# Sidebar settings
+sidebar: true                           # 是否开启侧边栏.
+sidebar-about-description: "说点装逼的话。。。"
+sidebar-avatar:/img/avatar.jpg      # 你的个人头像 这里你可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
+
+# SNS settings
+RSS: false
+weibo_username:     
+zhihu_username:     
+github_username:    sotowang
+facebook_username:  
+jianshu_username:	
+
+# Disqus settings（https://disqus.com/）
+disqus_username: sotowang
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 
+
+# Google Analytics
+ga_track_id:            # Format: UA-xxxxxx-xx
+ga_domain: auto
+
+friends: [
+    {
+        title: "简书·BY",
+        href: "http://www.jianshu.com/u/e71990ada2fd"
+    },{
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
+]
