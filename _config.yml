@@ -8,7 +8,7 @@ description: "You Blog"  			 #网站介绍
 keyword: "sotowang blog" #关键词
 url: "https://sotowang.github.io"          # 这个就是填写你的博客地址
 baseurl: ""      # 这个我们不用填写
-
+github_repo: "https://github.com/sotowang/sotowang.github.io.git" # you code repository
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏.
 sidebar-about-description: "说点装逼的话。。。"
@@ -16,11 +16,20 @@ sidebar-avatar:/img/avatar.jpg      # 你的个人头像 这里你可以改成�
 
 # SNS settings
 RSS: false
-weibo_username:     
-zhihu_username:     
+#weibo_username:     
+#zhihu_username:     
 github_username:    sotowang
-facebook_username:  
-jianshu_username:	
+#facebook_username:  
+#jianshu_username:	
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
 
 # Disqus settings（https://disqus.com/）
 disqus_username: sotowang
